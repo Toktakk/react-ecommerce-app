@@ -1,0 +1,8 @@
+@use "../../../styles/variables";
+
+.starReview {
+  .star {
+    margin-right: 5px;
+    color: variables.$orange01;
+  }
+}
