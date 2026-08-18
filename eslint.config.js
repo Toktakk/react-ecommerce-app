@@ -1,4 +1,5 @@
 import js from '@eslint/js'
+import pluginQuery from '@tanstack/eslint-plugin-query'
 import eslintConfigPrettier from 'eslint-config-prettier/flat'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
@@ -13,6 +14,7 @@ export default defineConfig([
     extends: [
       js.configs.recommended,
       tseslint.configs.recommended,
+      ...pluginQuery.configs['flat/recommended'],
       reactHooks.configs.flat.recommended,
       reactRefresh.configs.vite,
     ],
