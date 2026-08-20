@@ -1,5 +1,5 @@
 import styles from "./CheckoutDeliveryBox.module.scss";
-import { DeliveryOption as TDeliveryOption } from "@/features/checkout/types";
+import type { DeliveryOption as TDeliveryOption } from "@/features/checkout/types";
 import DeliveryOption from
   "@/features/checkout/components/DeliveryOption/DeliveryOption";
 

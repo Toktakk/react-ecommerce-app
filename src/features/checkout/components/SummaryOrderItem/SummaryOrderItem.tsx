@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./SummaryOrderItem.module.scss";
-import { CartItem } from "@/features/cart/store/CartContext";
+import type { CartItem } from "@/features/cart/store/CartContext";
 
 interface SummaryOrderItemProps {
   item: CartItem;

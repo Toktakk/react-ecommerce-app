@@ -1,4 +1,4 @@
-import { DeliveryOption, PaymentOption } from "./types";
+import type { DeliveryOption, PaymentOption } from "./types";
 
 export const deliveryOptions: DeliveryOption[] = [
   {

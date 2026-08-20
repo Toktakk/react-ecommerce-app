@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { checkoutAddressSchema, CheckoutAddressFormData } from
+import { checkoutAddressSchema, type CheckoutAddressFormData } from
   "@/features/checkout/schema";
 import Input from "@/shared/components/Input/Input";
 import Button from "@/shared/components/Button/Button";

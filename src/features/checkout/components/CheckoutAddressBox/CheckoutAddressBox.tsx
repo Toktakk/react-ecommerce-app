@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./CheckoutAddressBox.module.scss";
-import CheckoutAddressForm, { CheckoutAddressFormData } from
+import CheckoutAddressForm, { type CheckoutAddressFormData } from
   "@/features/checkout/components/CheckoutAddressForm/CheckoutAddressForm";
 
 interface CheckoutAddressBoxProps {

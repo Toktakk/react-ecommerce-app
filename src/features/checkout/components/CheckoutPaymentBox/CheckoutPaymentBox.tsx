@@ -1,5 +1,5 @@
 import styles from "./CheckoutPaymentBox.module.scss";
-import { PaymentOption as TPaymentOption } from "@/features/checkout/types";
+import type { PaymentOption as TPaymentOption } from "@/features/checkout/types";
 import PaymentOption from
   "@/features/checkout/components/PaymentOption/PaymentOption";
 
